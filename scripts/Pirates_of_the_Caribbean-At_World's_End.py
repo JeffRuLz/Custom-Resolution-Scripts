@@ -197,9 +197,5 @@ if write_file(path, mem) == True:
     print("  Overwrote " + path + "\n")
 else:
     print("* ERROR: Could not overwrite " + path + " *\n")
-    end_program()
-    
-# update config file
-
         
 end_program()
