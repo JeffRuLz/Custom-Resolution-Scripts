@@ -17,9 +17,12 @@ I mainly play US or English versions of games. Create a new issue and include th
 #### When I double-click on the script it opens and closes right away.
 Run the script in a command prompt, copy the error message, create a new issue and post it there.
 
+#### Something went wrong and I want to undo the changes.
+The script will try to create a backup ([game.exe].bak) before changing a file. Delete the modified file and remove the .bak extension from the backup file.
+
 #### The script finished without error but the resolution did not change.
 Read the note at the start of the script and make sure you change the in-game resolution to the one that is being replaced.
 
 Make sure you're using a resolution that is supported by your graphics card. You may need to create a custom resolution profile for unusual resolutions.
 
-Some games just react poorly to certain resolutions. I often test 1280x720, 1440x1080, 1920x1080, and 1920x800, and leave a note if one doesn't work.
+Some games just react poorly to certain resolutions. I often test 1280x720, 1440x1080, 1920x1080, and 1920x800 and leave a note if one doesn't work.
