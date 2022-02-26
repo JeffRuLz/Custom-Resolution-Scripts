@@ -5,10 +5,11 @@ Whenever I look for a widescreen hack for an old computer game I will often find
 
 These hack methods are often created by other people. Open the script in a text editor to find a link to the source and a written explanation of the hack.
 
-### Download Scripts
+### Download
 Right-click and select 'Save Link As...'
 
-[Nickelodeon Barnyard](https://raw.githubusercontent.com/JeffRuLz/Custom-Resolution-Scripts/main/scripts/Barnyard_res_patch.py) (Widescreen works, ultrawide does not)
+* [Nickelodeon Barnyard](https://raw.githubusercontent.com/JeffRuLz/Custom-Resolution-Scripts/main/scripts/Barnyard_res_patch.py) (Widescreen works, ultrawide does not)
+* [Pirates of the Caribbean: At World's End](https://github.com/JeffRuLz/Custom-Resolution-Scripts/raw/main/scripts/At_World's_End_res_patch.py)
 
 ### Usage
 1. Install [Python 3](https://www.python.org/downloads/) if you have not already.
