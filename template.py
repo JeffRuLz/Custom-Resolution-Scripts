@@ -34,14 +34,23 @@ def end_program():
 def disable_read_only(fpath):
     try:
         os.chmod(fpath, stat.S_IWRITE)
+        print("  Allowed write permission for " + fpath)
         return True
     except:
+        print("* WARNING: Could not disable read-only permission. *")
+        print("* " + fpath + " *")
         return False
         
 def backup_file(fpath):
     if os.path.exists(fpath + ".bak") == False:
-        shutil.copyfile(fpath, fpath + ".bak")
-        return True
+        try:
+            shutil.copyfile(fpath, fpath + ".bak")
+            print("  Created backup file: " + fpath + ".bak")
+            return True
+        except:
+            print("* ERROR: Could not create backup for *")
+            print("* " + fpath + " *\n")
+            return False
     else:
         return False
     
@@ -52,6 +61,8 @@ def load_file(fpath):
         f.close()
         return mem
     except:
+        print("* ERROR: Could not read file *")
+        print("* " + fpath + " *\n")
         return None
         
 def write_file(fpath, mem):
@@ -59,8 +70,11 @@ def write_file(fpath, mem):
         f = open(fpath, "wb")
         f.write(mem)
         f.close()
+        print("  Wrote file: " + fpath)
         return True
     except:
+        print("* ERROR: Could not write to file *")
+        print("* " + fpath + " *\n")
         return False
 
 def find_file(paths, files):
@@ -149,7 +163,7 @@ if n > 1:
 path = find_file(paths, exe_names)
 if path == None:
     print("* ERROR: " + exe_names[0] + " was not found. *")
-    print("* Run this script from the same location as the game's .exe. *\n")
+    print("* Run this script from the same location as the game's exe file. *\n")
     end_program()
     
 print("Found: " + path + "\n")
@@ -157,7 +171,6 @@ print("Found: " + path + "\n")
 # load file into memory
 mem = load_file(path)
 if mem == None:
-    print("\n* ERROR: Error reading " + path + " *\n")
     end_program()
     
 # check compatibility
@@ -186,8 +199,7 @@ else:
 # resolution hack start
 print("Modifying " + path)
 
-if backup_file(path) == True:
-    print("  Created backup file: " + path + ".bak")
+backup_file(path)
     
 # ============= Actual work goes here ==================
 #
@@ -201,5 +213,9 @@ if backup_file(path) == True:
 #
 #
 # ======================================================
+
+# update file  
+if write_file(path, mem) == False:
+    end_program()  
     
 end_program()
