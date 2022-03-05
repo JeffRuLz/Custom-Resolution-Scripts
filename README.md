@@ -8,6 +8,7 @@ These hack methods are often created by other people. Open the script in a text 
 ### Download
 Right-click and select 'Save Link As...'
 
+* [Island Xtreme Stunts](https://github.com/JeffRuLz/Custom-Resolution-Scripts/raw/main/scripts/Island_Xtreme_Stunts_res_patch.py) (Aspect ratio hack. Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/) to change resolution.)
 * [Nickelodeon Barnyard](https://raw.githubusercontent.com/JeffRuLz/Custom-Resolution-Scripts/main/scripts/Barnyard_res_patch.py) (Widescreen works, ultrawide does not)
 * [Pirates of the Caribbean: At World's End](https://github.com/JeffRuLz/Custom-Resolution-Scripts/raw/main/scripts/At_World's_End_res_patch.py)
 
