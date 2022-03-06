@@ -1,4 +1,7 @@
 ### Custom Resolution Scripts
+
+![screenshot](https://github.com/JeffRuLz/Custom-Resolution-Scripts/raw/main/sceenshot.png)
+
 A collection of python scripts used to apply resolution/widescreen patches to PC games.
 
 Whenever I look for a widescreen hack for an old computer game I will often find pre-patched exes for specific resolutions or a guide on how to edit the game with a hex editor. My goal is to automate the process with an easy to use script.
