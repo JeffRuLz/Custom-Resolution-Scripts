@@ -14,6 +14,7 @@ Right-click and select 'Save Link As...'
 * [102 Dalmatians: Puppies to the Rescue](https://github.com/JeffRuLz/Custom-Resolution-Scripts/raw/main/scripts/102_Dalmatians_res_patch.py) (Aspect ratio hack. Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/) to change resolution.)
 * [Island Xtreme Stunts](https://github.com/JeffRuLz/Custom-Resolution-Scripts/raw/main/scripts/Island_Xtreme_Stunts_res_patch.py) (Aspect ratio hack. Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/) to change resolution.)
 * [Nickelodeon Barnyard](https://raw.githubusercontent.com/JeffRuLz/Custom-Resolution-Scripts/main/scripts/Barnyard_res_patch.py) (Widescreen works, ultrawide does not)
+* [Over the Hedge](https://github.com/JeffRuLz/Custom-Resolution-Scripts/raw/main/scripts/Over_the_Hedge_res_patch.py)
 * [Pirates of the Caribbean: At World's End](https://github.com/JeffRuLz/Custom-Resolution-Scripts/raw/main/scripts/At_World's_End_res_patch.py)
 
 ### Usage
