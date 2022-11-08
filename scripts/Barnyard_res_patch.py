@@ -276,12 +276,12 @@ else:
             print("* " + path + " will not be changed. *\n")
         else:    
             # screen width
-            address = [0xB06A]
+            address = [0xB06C]
             hex_write_uint(mem, address[version], width)
             print("  Screen width: " + str(hex(width)) + " @ " + str(hex(address[version])))
 
             # screen height
-            address = [0xB06E]
+            address = [0xB070]
             hex_write_uint(mem, address[version], height)
             print("  Screen height: " + str(hex(height)) + " @ " + str(hex(address[version])))
 
